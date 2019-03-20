@@ -1,6 +1,6 @@
 # amrits-nuxt-template
 
-> Nuxt starter template with typescript, pug, sass, es-lint(for typescript), vuetify, vuex and ts-jest!
+> Nuxt starter template with typescript, pug, sass, es-lint(for typescript), vuetify and ts-jest!
 
 ## Build Setup
 

@@ -5,7 +5,7 @@ section.container
         h1.title
             | amrits-nuxt-template
         h2.subtitle
-            | Nuxt starter template with typescript, pug, sass, es-lint(for typescript), vuetify, vuex and ts-jest!
+            | Nuxt starter template with typescript, pug, sass, es-lint(for typescript), vuetify and ts-jest!
         .links
             a.button--green(href='https://nuxtjs.org/', target='_blank') Documentation
             a.button--grey(href='https://github.com/nuxt/nuxt.js', target='_blank') GitHub
