@@ -6,7 +6,7 @@
         typescript-pug-sass-nuxt-jest
       </h1>
       <h2 class="subtitle">
-        Nuxt starter template with typescript, pug, and sass working with linting! Also ts-jest for your testing needs
+        Nuxt starter asdasd with typescript, pug, and sass working with linting! Also ts-jest for your testing needs
       </h2>
       <div class="links">
         <a

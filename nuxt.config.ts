@@ -34,7 +34,7 @@ const config: NuxtConfiguration = {
     css: [],
 
     // Change src directory
-    srcDir: 'src',
+    srcDir: 'src/',
 
     // Plugins to load
     plugins: [],
@@ -63,9 +63,6 @@ const config: NuxtConfiguration = {
 
         // Extend webpack config
         extend (config, ctx) {
-
-            // Change aliases
-            // config.resolve.alias['@'] = this.options.srcDir
 
             if (ctx.isDev && ctx.isClient) {
                 config.module.rules.push({

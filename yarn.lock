@@ -1025,7 +1025,7 @@
     server-destroy "^1.0.1"
     ua-parser-js "^0.7.19"
 
-"@nuxt/typescript@^2.4.5":
+"@nuxt/typescript@2.4.5", "@nuxt/typescript@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@nuxt/typescript/-/typescript-2.4.5.tgz#be73ac48d72802fe3021606de30757ba7c4adb1f"
   integrity sha512-KGUVRHgZMdJXYZLPfs4ULY8gMbxg+YGFiF+M05aNrRpVQqn+8Y/x4JggdrJeZi+5brKimau+BQzORv6XtNT3nQ==
@@ -1215,6 +1215,11 @@
   version "11.11.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.3.tgz#7c6b0f8eaf16ae530795de2ad1b85d34bf2f5c58"
   integrity sha512-wp6IOGu1lxsfnrD+5mX6qwSwWuqsdkKKxTN4aQc4wByHAKZJf9/D4KXPQ1POUjEbnCP5LMggB0OEFNY9OTsMqg==
+
+"@types/node@^11.11.4":
+  version "11.11.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.4.tgz#8808bd5a82bbf6f5d412eff1c228d178e7c24bb3"
+  integrity sha512-02tIL+QIi/RW4E5xILdoAMjeJ9kYq5t5S2vciUdFPXv/ikFTb0zK8q9vXkg4+WAJuYXGiVT1H28AkD2C+IkXVw==
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -6725,16 +6730,17 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt@^2.4.5:
+nuxt-ts@^2.4.5:
   version "2.4.5"
-  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.4.5.tgz#3f3256c47e78038ef8081e522181aa2578bddcea"
-  integrity sha512-y2p0q58C8yyNr8zg9wEx5ZNhAYe0sbMXHeproGiCKXc2GW7TR6KtZ9/9IBeVlz7HwvoZW+VXIt2m/oecI9IbqQ==
+  resolved "https://registry.yarnpkg.com/nuxt-ts/-/nuxt-ts-2.4.5.tgz#b60535936bcff6342345245c581fd860db6124b6"
+  integrity sha512-UZjKLHRNt18RbbmdmoHroe4IjMMQ8lZSpxVFkOEAUMdoW30GheoppJF32D2dKjPDFs6xErLA2OQQRac5q0bcWQ==
   dependencies:
     "@nuxt/builder" "2.4.5"
     "@nuxt/cli" "2.4.5"
     "@nuxt/core" "2.4.5"
     "@nuxt/generator" "2.4.5"
     "@nuxt/opencollective" "^0.2.1"
+    "@nuxt/typescript" "2.4.5"
     "@nuxt/webpack" "2.4.5"
 
 nwsapi@^2.0.7:
