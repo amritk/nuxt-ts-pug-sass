@@ -1,6 +1,6 @@
-# typescript-pug-sass-nuxt-jest
+# amrits-nuxt-template
 
-> Nuxt starter template with typescript, pug, and sass working with linting! Also ts-jest for your testing needs
+> Nuxt starter template with typescript, pug, sass, es-lint(for typescript), vuetify, vuex and ts-jest!
 
 ## Build Setup
 

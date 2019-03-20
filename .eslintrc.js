@@ -41,7 +41,7 @@ module.exports = {
         'no-unused-expressions': 2,
         'no-var': 2,
         'object-curly-newline': [2, {
-            'ObjectExpression': 'always',
+            'ObjectExpression': { 'multiline': true, 'minProperties': 3, 'consistent': true },
             'ImportDeclaration': 'never',
             'ExportDeclaration': 'never'
         }],

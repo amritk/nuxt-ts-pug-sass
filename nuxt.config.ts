@@ -1,6 +1,7 @@
 import NuxtConfiguration from '@nuxt/config-edge'
 import Sass from 'sass'
 import pkg from './package.json'
+import vuetifyLoader from './src/plugins/vuetify-loader'
 
 const config: NuxtConfiguration = {
     mode: 'universal',
@@ -31,13 +32,18 @@ const config: NuxtConfiguration = {
     },
 
     // Global css
-    css: [],
+    // css: [{
+    //     src: '~/assets/style/app.sass', lang: 'sass'
+    // }, {
+    //     src: '~/assets/style/app.styl', lang: 'stylus'
+    // }],
+    css: ['@/styles/index.sass', '@/styles/vuetify.styl'],
 
     // Change src directory
     srcDir: 'src/',
 
     // Plugins to load
-    plugins: [],
+    plugins: ['@/plugins/vuetify'],
 
     // Nuxt.js modules
     modules: [],
@@ -78,7 +84,13 @@ const config: NuxtConfiguration = {
             sass: {
                 implementation: Sass,
             }
-        }
+        },
+
+        // Vuetify Loader - To auto load your components
+        transpile: [/^vuetify/],
+        plugins: [
+            vuetifyLoader
+        ]
     }
 }
 

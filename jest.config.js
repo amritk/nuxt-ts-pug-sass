@@ -1,6 +1,6 @@
 module.exports = {
     moduleNameMapper: {
-        '^@/(.*)$': '<rootDir>/$1',
+        '^@/(.*)$': '<rootDir>/src/$1',
         '^vue$': 'vue/dist/vue.common.js'
     },
     moduleFileExtensions: ['js', 'vue', 'json', 'ts'],
@@ -10,6 +10,9 @@ module.exports = {
         '^.+\\.ts$': 'ts-jest',
         '.*\\.(vue)$': 'vue-jest'
     },
+    transformIgnorePatterns: [
+        '<rootDir>/node_modules//(?!(vuetify))',
+    ],
     collectCoverage: true,
     testURL: 'http://localhost/',
     globals: {
