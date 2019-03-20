@@ -1,0 +1,28 @@
+{
+    "search.exclude": {
+        "public": true,
+        "yarn.lock": true
+    },
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript"
+}
