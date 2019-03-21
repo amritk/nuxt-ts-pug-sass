@@ -10,6 +10,7 @@ section.container
             a.button--green(href='https://nuxtjs.org/', target='_blank') Documentation
             a.button--grey(href='https://github.com/nuxt/nuxt.js', target='_blank') GitHub
         v-btn Vuetify!
+        span Translation: {{ $t('first') }}
 </template>
 
 <style lang="sass">

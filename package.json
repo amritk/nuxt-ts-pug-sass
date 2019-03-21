@@ -4,7 +4,7 @@
     "description": "Nuxt starter template with typescript, pug, sass, es-lint(for typescript), vuetify and ts-jest!",
     "author": "Amrit Kahlon",
     "scripts": {
-        "dev": "nuxt-ts",
+        "dev": "rm -rf .nuxt && nuxt-ts",
         "build": "nuxt-ts build",
         "start": "nuxt-ts start",
         "generate": "nuxt-ts generate",
@@ -30,6 +30,7 @@
         "stylus": "^0.54.5",
         "stylus-loader": "^3.0.2",
         "ts-loader": "^5.3.3",
+        "vue-i18n": "^8.9.0",
         "vue-property-decorator": "^8.0.0",
         "vuetify": "^1.5.7",
         "vuetify-loader": "^1.2.1",

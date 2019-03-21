@@ -32,18 +32,13 @@ const config: NuxtConfiguration = {
     },
 
     // Global css
-    // css: [{
-    //     src: '~/assets/style/app.sass', lang: 'sass'
-    // }, {
-    //     src: '~/assets/style/app.styl', lang: 'stylus'
-    // }],
     css: ['@/styles/index.sass', '@/styles/vuetify.styl'],
 
     // Change src directory
     srcDir: 'src/',
 
     // Plugins to load
-    plugins: ['@/plugins/vuetify'],
+    plugins: ['@plugins/i18n', '@/plugins/vuetify'],
 
     // Nuxt.js modules
     modules: [],
